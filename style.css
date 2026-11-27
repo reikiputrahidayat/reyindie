@@ -1,4 +1,7 @@
-/* GENERAL */
+/* =========================
+   GENERAL
+========================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,14 +15,23 @@ body {
     min-height: 100vh;
 }
 
-/* MAIN CONTAINER */
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
 .container {
+    width: 100%;
     max-width: 650px;
-    margin: auto;
+    margin: 0 auto;
     padding: 80px 25px;
 }
 
-/* HEADER */
+
+/* =========================
+   HEADER
+========================= */
+
 .header {
     margin-bottom: 55px;
 }
@@ -50,7 +62,11 @@ h1 span {
     max-width: 420px;
 }
 
-/* MENU BUTTONS */
+
+/* =========================
+   MENU BUTTONS
+========================= */
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -61,13 +77,17 @@ h1 span {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     padding: 22px 24px;
+
     background: #111111;
     border: 1px solid #482b3b;
     border-radius: 8px;
+
     color: #ffffff;
     text-decoration: none;
-    transition: 0.3s ease;
+
+    transition: all 0.3s ease;
 }
 
 .number {
@@ -79,6 +99,7 @@ h1 span {
 .button-text {
     flex: 1;
     margin-left: 20px;
+
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -89,18 +110,28 @@ h1 span {
     font-size: 18px;
 }
 
-/* HOVER EFFECT */
+
+/* =========================
+   HOVER EFFECT
+========================= */
+
 .menu-button:hover {
     background: #241522;
     border-color: #e88bbd;
     transform: translateY(-3px);
 }
 
-/* FOOTER */
+
+/* =========================
+   FOOTER
+========================= */
+
 .footer {
     margin-top: 65px;
     padding-top: 20px;
+
     border-top: 1px solid #352632;
+
     color: #666666;
     font-size: 10px;
     letter-spacing: 1.5px;
@@ -111,8 +142,13 @@ h1 span {
     color: #e88bbd;
 }
 
-/* MOBILE */
+
+/* =========================
+   MOBILE
+========================= */
+
 @media (max-width: 480px) {
+
     .container {
         padding: 60px 20px;
     }
@@ -129,4 +165,5 @@ h1 span {
     .footer {
         font-size: 8px;
     }
+
 }
